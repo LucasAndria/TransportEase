@@ -32,6 +32,13 @@
 
 ------------------------------------ Features ------------------------------------
 
+- Ajout de tout les agents qui vont prendre le transports dans l'app (avec leurs addresses et l'heure de fin du shift)
+- Ajout des transports (nombre de place et heure de travail)
+- Vu de tous les agents sur la map (avec prénom, adresse)
+- Calcul de tous les points sur la map et mettre dans un cluster ceux qui sont les plus proches (- de 3km)
+- Ajouter les agents dans un transports via un popup sur la map
+- Genération des listes de transports
+
 
 ------------------------------------ Step by step ------------------------------------
 
