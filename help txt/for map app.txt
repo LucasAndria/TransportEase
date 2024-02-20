@@ -1,0 +1,41 @@
+------------------------------------ Services ------------------------------------
+
+- Interface (Marker, route, ...) :
+	Leaflet (https://leafletjs.com/) : Open-source JavaScript library for all the interaction on the map
+	Leaflet Marker Cluster (https://github.com/Leaflet/Leaflet.markercluster) : Clustering markers
+
+
+- Geospatial Operation (calcul bettwen two points) : 
+	Geolib : Used for all calculation and convertion
+		(https://www.npmjs.com/package/geolib) 
+		(https://cdn.jsdelivr.net/npm/geolib@3.3.4/lib/index.min.js)
+
+
+- Map (Map layer) : 
+	OpenStreetMap (https://www.openstreetmap.org/) : open source map
+	Maplibre (https://maplibre.org/) : open source map 
+	Maptiler (https://www.maptiler.com/) : cool design map (free 100k request)
+	Mapbox (https://www.mapbox.com/) : include free plan but need card info
+
+
+- Geocoding (Transform the place name into latlong) : 
+	Pelias (https://pelias.io/) : Opensource geocoding
+	Nominatim (https://nominatim.org/) : Opensource geocoding from OSM data
+	Open route service (https://openrouteservice.org/) : Opensource geocoding (1000/day)
+
+
+- Routing (Get direction from one point to another) :
+	Open Source Routing Machine (https://project-osrm.org/) : Open source routing service (512req/connect°, 1req/5s)
+	Open Route Service (https://openrouteservice.org/) : Free routing service (2.000/day, 40/min)
+	Graph hopper (https://www.graphhopper.com/) : Free routing service (500 credits/day)
+	MapQuest (https://developer.mapquest.com/) : Routing service (not tested yet but i think it doesn't have free plan)
+
+------------------------------------ Features ------------------------------------
+
+
+------------------------------------ Step by step ------------------------------------
+
+
+------------------------------------ Possible pluggin (bubble) ------------------------------------
+
+- Add a map and a customizable marker (company logo) and popup then user can get direction from where they are into the marker point
