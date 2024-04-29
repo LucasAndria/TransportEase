@@ -5,4 +5,24 @@ body {
 #map {
   width: 100vw;
   height: 100vh;
+  position: relative;
+}
+
+#addagent {
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  border: 1px solid #8a8a8a;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #8a8a8a63;
+  z-index: 401;
+}
+
+input {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 7px 14px 9px;
 }
