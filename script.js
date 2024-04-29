@@ -13,3 +13,5 @@ var tileLayer = L.tileLayer(
 ).addTo(map);
 
 var marker = L.marker([-18.933333, 47.516667]).addTo(map);
+
+marker.bindPopup("hello").openPopup();
